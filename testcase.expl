@@ -1,0 +1,9 @@
+read ( argc );
+argc = FUN ( argc ) {
+
+    x = argc * argc * 3;
+    
+    
+    return x ;
+}
+write ( argc );
